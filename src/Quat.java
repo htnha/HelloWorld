@@ -48,4 +48,12 @@ public class Quat {
     void hienThi(){
         System.out.println(this);
     }
+
+    public static void main(String[]args){
+        Quat q1 = new Quat("Samsung","Quat Dung", 1000000, 60);
+        q1.hienThi();
+        q1.bat();
+        q1.chuyenTrangThaiQuay();
+        q1.hienThi();
+    }
 }
